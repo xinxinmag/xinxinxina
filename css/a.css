@@ -602,6 +602,8 @@ h3 {
     border-radius: 100%;
     padding: 2px;
     display: block;
+    background: -webkit-linear-gradient(bottom left, rgba(0,153,255,.9), rgba(42,228,197,.7));
+    background: -o-linear-gradient(bottom left, rgba(0,153,255,.9), rgba(42,228,197,.7));
     background: linear-gradient(to top right, rgba(0,153,255,.9), rgba(42,228,197,.7));
 }
 .bloginfo span {
@@ -869,18 +871,4 @@ footer a:hover { color: #00C1DE }
     width: 1200px;
     margin: auto;
     overflow: hidden;
-}
-.avatar::after {
-    content: "";
-    position: absolute;
-    background: url(../image/v.png) no-repeat;
-    background-size: 12px;
-    width: 12px;
-    height: 12px;
-    right: 0;
-    bottom: 0;
-}
-.avatar img{
-    width: 100%;
-    border-radius: 50%;
 }
